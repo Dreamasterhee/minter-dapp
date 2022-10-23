@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #0d0e11;
+  --bg-color-transparent: #02071580;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #7bbe0e;
+  --accent-color: #09070a;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -125,7 +125,7 @@ header .container {
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 2rem;
   margin-left: 2rem;
   border-color: transparent;
 }
@@ -148,12 +148,12 @@ header .container {
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateX(100vw);
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .show-card {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateX(2);
 }
 
 /* COUNTDOWN SECTION */
